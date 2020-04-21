@@ -9,8 +9,18 @@ h1 {
     color: green;
 }
 
+h3 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    background-color: #dce9e2
+    background-color: #f8fdff
 }
 
 .form {
@@ -20,7 +30,7 @@ body {
     width: 50%;
     padding: 0 30px;
     border-radius: 3px;
-    background-color: #b0e6f5
+    background-color: #dff4ff
 
 }
 
@@ -56,6 +66,47 @@ body {
     margin-bottom: 30px;
     width: 50%;
     outline: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-list {
+    width: 24.5%;
+    min-height: 400px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.list-item-title {
+    border-bottom: 2px solid black;
+    border-radius: 3px;
+    padding: 5px 0;
 
 }
+
+
+.task-item {
+    width: 95%;
+    margin: 5px auto;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+
+.delete-btn:hover {
+    background-color: #ff1810;
+}
+
 
