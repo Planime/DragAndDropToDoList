@@ -1,0 +1,61 @@
+@import "fonts.css";
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Liu";
+    color: green;
+}
+
+body {
+    background-color: #dce9e2
+}
+
+.form {
+    text-align: center;
+    border: 2px solid threedface;
+    margin: 30px auto 30px;
+    width: 50%;
+    padding: 0 30px;
+    border-radius: 3px;
+    background-color: #b0e6f5
+
+}
+
+.area-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    border-radius: 3px;
+}
+
+.form-input-title {
+    width: 100%;
+    border-radius: 3px;
+    border: 2px solid threedface;
+    padding: 3px 15px;
+    outline: none;
+}
+
+.form-input-body {
+    width: 100%;
+    resize: none;
+    border-radius: 3px;
+    min-height: 20px;
+    outline: none;
+    padding: 3px 15px;
+}
+
+.form-input-title:focus, .form-input-body:focus {
+    background-color: #e4f1ea;
+}
+
+.form-input-submit {
+    margin-bottom: 30px;
+    width: 50%;
+    outline: none;
+
+}
+
